@@ -1,0 +1,215 @@
+{
+  "contracts": [
+    {
+      "id": 1,
+      "distributorId": 1,
+      "nurseryId": 1
+    },
+    {
+      "id": 2,
+      "distributorId": 2,
+      "nurseryId": 2
+    },
+    {
+      "id": 3,
+      "distributorId": 3,
+      "nurseryId": 3
+    },
+    {
+      "id": 4,
+      "distributorId": 1,
+      "nurseryId": 4
+    },
+    {
+      "id": 5,
+      "distributorId": 2,
+      "nurseryId": 5
+    },
+    {
+      "id": 6,
+      "distributorId": 3,
+      "nurseryId": 5
+    }
+  ],
+  "distributors": [
+    {
+      "id": 1,
+      "name": "Petal Express",
+      "city": "Nashville",
+      "state": "Tennessee",
+      "address": "555 Rose Lane"
+    },
+    {
+      "id": 2,
+      "name": "Blooming Delights Inc.",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "address": "123 Daisy Drive"
+    },
+    {
+      "id": 3,
+      "name": "Flower Power Distributors",
+      "city": "Knoxville",
+      "state": "Tennessee",
+      "address": "789 Tulip Street"
+    }
+  ],
+  "flowers": [
+    {
+      "id": 1,
+      "name": "Rose",
+      "color": "Red"
+    },
+    {
+      "id": 2,
+      "name": "Tulip",
+      "color": "Yellow"
+    },
+    {
+      "id": 3,
+      "name": "Daisy",
+      "color": "White"
+    },
+    {
+      "id": 4,
+      "name": "Lily",
+      "color": "Pink"
+    },
+    {
+      "id": 5,
+      "name": "Sunflower",
+      "color": "Yellow"
+    }
+  ],
+  "inventories": [
+    {
+      "id": 1,
+      "flowerId": 1,
+      "nurseryId": 2
+    },
+    {
+      "id": 2,
+      "flowerId": 3,
+      "nurseryId": 4
+    },
+    {
+      "id": 3,
+      "flowerId": 5,
+      "nurseryId": 1
+    },
+    {
+      "id": 4,
+      "flowerId": 2,
+      "nurseryId": 3
+    },
+    {
+      "id": 5,
+      "flowerId": 4,
+      "nurseryId": 5
+    },
+    {
+      "id": 6,
+      "flowerId": 1,
+      "nurseryId": 3
+    },
+    {
+      "id": 7,
+      "flowerId": 5,
+      "nurseryId": 2
+    },
+    {
+      "id": 8,
+      "flowerId": 3,
+      "nurseryId": 5
+    },
+    {
+      "id": 9,
+      "flowerId": 2,
+      "nurseryId": 4
+    },
+    {
+      "id": 10,
+      "flowerId": 5,
+      "nurseryId": 5
+    }
+  ],
+  "nurseries": [
+    {
+      "id": 1,
+      "name": "Blossom Haven Nursery",
+      "city": "Nashville",
+      "state": "Tennessee",
+      "address": "Sunshine Boulevard"
+    },
+    {
+      "id": 2,
+      "name": "Petals & Posies Plant Shop",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "address": "Joyful Way"
+    },
+    {
+      "id": 3,
+      "name": "Daisy Dreams Greenhouse",
+      "city": "Knoxville",
+      "state": "Tennessee",
+      "address": "Floral Lane"
+    },
+    {
+      "id": 4,
+      "name": "Tulip Terrace Nursery",
+      "city": "Chattanooga",
+      "state": "Tennessee",
+      "address": "Blossom Street"
+    },
+    {
+      "id": 5,
+      "name": "Happy Petal Gardens",
+      "city": "Franklin",
+      "state": "Tennessee",
+      "address": "Pleasant Lane"
+    }
+  ],
+  "retailers": [
+    {
+      "id": 1,
+      "name": "Blossom Boutique",
+      "city": "Nashville",
+      "state": "Tennessee",
+      "address": "123 Petal Lane",
+      "distributorId": 2
+    },
+    {
+      "id": 2,
+      "name": "Floral Haven",
+      "city": "Memphis",
+      "state": "Tennessee",
+      "address": "456 Bloom Street",
+      "distributorId": 1
+    },
+    {
+      "id": 3,
+      "name": "Rose Petals Emporium",
+      "city": "Knoxville",
+      "state": "Tennessee",
+      "address": "789 Lily Avenue",
+      "distributorId": 3
+    },
+    {
+      "id": 4,
+      "name": "Daisy Delights",
+      "city": "Chattanooga",
+      "state": "Tennessee",
+      "address": "1010 Blossom Road",
+      "distributorId": 2
+    },
+    {
+      "id": 5,
+      "name": "Sunflower Garden",
+      "city": "Franklin",
+      "state": "Tennessee",
+      "address": "222 Marigold Drive",
+      "distributorId": 1
+    }
+  ]
+}
